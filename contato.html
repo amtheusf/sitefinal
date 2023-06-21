@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="color-page">
+    <div class="container-principal" id="topo">
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Imagens/logo.png" alt="logo site">
+                </a>
+            </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">home</a>
+                        </li>
+                        <li>
+                            <a href="clientes.html">clientes</a>
+                        </li>
+                        <li>
+                            <a href="sobre.html">sobre</a>
+                        </li>
+                        <li>
+                            <a href="#topo">contato</a>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+        
+        <div class="img-titulo">
+            <img src="Imagens/contato.png" alt="imagem contato">
+        </div>
+        <section id="txt-contato">
+            <form name="meu_form" id="meu_form">
+                <p class="nome">
+                    <label for="nome">Nome:</label> <br>
+                    <input type="text" id="nomeid" required name="nome" placeholder="Ex:fulano Aparecido">
+                </p>
+                <p class="fone">
+                    <label for="fone">Fone:</label> <br>
+                    <input type="phone" id="foneid" name="fone" required placeholder="(xx)xxxx-xxxx">
+                </p>
+                <p>
+                    <label for="email">Email:</label> <br>
+                    <input type="email" id="emailid" name="email" required placeholder="Ex:fulano@gmail.com">
+                </p>
+                <p>
+                    <textarea name="mensagem" placeholder="mensagem" cols="30" rows="4" required></textarea>
+                </p>
+            <button type="submit" form="meu_form">Enviar</button>
+            </form>
+            <div id="conta-data">
+                <h4>Code - Desenvolvimento de sites</h4>
+                <h5><img src="Imagens/icoadress.png" alt="endereço"><br>Avenida Novos Conhecimentos n° 2022</h5>
+                <h5><img src="Imagens/icoTelefone.png" alt="telefone"><br>+55 11 9999-9999</h5>
+                <h5><img src="Imagens/icoface.png" alt="facbook"><br>facebook.com\codedev</h5>
+                <h5><img src="Imagens/icoinsta.png" alt="instagram"><br>@codedev</h5>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
